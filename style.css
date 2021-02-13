@@ -6,7 +6,8 @@ body{
     --color-primary: #73bdf5;
 }
 .status{
-    margin: 4rem;
+    margin: auto;
+    max-width: 60%;
     padding: 4rem;
     border-style: solid;
     border-color: var(--color-primary);
