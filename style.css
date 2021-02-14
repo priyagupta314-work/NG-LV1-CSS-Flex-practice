@@ -9,7 +9,8 @@ body {
 }
 
 .status {
-    margin: 3rem auto;
+    
+    margin: auto;
     max-width: 60%;
     padding: 3rem;
     border-style: solid;
@@ -19,10 +20,11 @@ body {
     box-shadow: 1px 2px #d8ecf0;
 }
 
-.card-top {
+.status-top {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin: auto;
 }
 
 .profile-pic {
@@ -42,7 +44,7 @@ body {
     background-color: #73bdf5;
     color: white;
     padding: 0.2rem 1rem;
-    margin-left: 10rem;
+    margin-left: 20rem;
     font-family: 'Raleway', sans-serif;
     border-style: none;
     
