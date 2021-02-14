@@ -1,61 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
-body{
+
+body {
     font-family: 'Raleway', sans-serif;
 }
-:root{
+
+:root {
     --color-primary: #73bdf5;
 }
-.status{
+
+.status {
     margin: 3rem auto;
     max-width: 60%;
     padding: 3rem;
     border-style: solid;
     border-color: var(--color-primary);
-    justify-content: space-between;
+
     border-radius: 0.2rem;
     box-shadow: 1px 2px #d8ecf0;
 }
-.status-top{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+.card-top {
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
-.profile-pic{
+.profile-pic {
+
     width: 10vw;
-    height: 10vw;
+    height: 15vh;
     border-radius: 50%;
     border-style: solid;
     border-color: var(--color-primary);
 }
-.basic-info{
-    list-style: none;
-}
 
-.follow-button{
-    background-color:  #73bdf5;
+.basic-info{
+    padding-left: 2rem;
+    line-height: 0.1rem;
+}
+.follow-button {
+    background-color: #73bdf5;
     color: white;
     padding: 0.2rem 1rem;
+    margin-left: 10rem;
     font-family: 'Raleway', sans-serif;
-    align-items: flex-end;
     border-style: none;
     
 
 }
 
-.status-content{
-    
+
+
+.status-content {
+
     line-height: 2rem;
 }
 
-#like-button{
+#like-button {
     border-style: none;
     font-size: 2rem;
     background: none;
 }
 
-#like-counter{
+#like-counter {
     color: red;
 }
